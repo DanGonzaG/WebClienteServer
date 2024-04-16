@@ -1,0 +1,260 @@
+/* Estilos CSS para el navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+    /* Línea horizontal negra */
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left img {
+    height: 40px;
+    /* Ajusta la altura según lo necesites */
+    margin-right: 10px;
+}
+
+.navbar-left span {
+    font-size: 40px;
+    /* Tamaño de la letra para "EDILIT" */
+    font-weight: bold;
+    /* Texto en negritas */
+    color: black;
+    /* Color de letra negro */
+}
+
+.navbar-right a {
+    margin-left: 15px;
+    font-size: 25px;
+    /* Tamaño de letra para el menú */
+    color: black;
+    /* Color de letra negro */
+    text-decoration: none;
+    transition: color 0.3s;
+    /* Transición suave para el cambio de color */
+}
+
+.navbar-right a:hover {
+    text-decoration: underline;
+    color: #a0522d;
+    /* Cambia el color a café al pasar el cursor */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #F6F4F3;
+    /* Fondo de páginas */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    /* Tamaño de letra para <h1> */
+}
+
+p {
+    font-size: 11px;
+    /* Tamaño de letra para <p> */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.main-image {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+/* Estilos para la sección de información */
+.info {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.text p {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #a0522d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8b4513;
+}
+
+.small-images {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-image {
+    width: 18%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+
+.president-section {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.president-image {
+    flex: 1;
+    /* Ocupa el espacio disponible del lado izquierdo */
+    margin-right: 20px;
+    /* Espacio entre la imagen y la información */
+}
+
+.president-image img {
+    width: 100%;
+    /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+.president-info {
+    flex: 1;
+    /* Ocupa el espacio disponible del lado derecho */
+}
+
+.president-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.president-info h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.president-info p {
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+table td img {
+    max-width: 100%;
+    height: auto;
+}
+
+table td button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+table td button:hover {
+    background-color: #a0522d;
+    cursor: pointer;
+}
+
+.book-container {
+    border: 1px solid #8b4513;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 340px;
+    height: 360px;
+    box-sizing: border-box;
+}
+
+.book-container img {
+    max-width: 80%;
+    height: auto;
+    max-height: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.catalog-up {
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-family: Arial, sans-serif;
+}
+
+.catalog-up p {
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.book-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.book-info {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.book-image {
+    position: fixed;
+    right: 125px;
+    top: 85px;
+    width: 330px;
+    height: 525px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.big-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+
+.adminMenu {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 10px;
+
+}
+
+.menuListas{
+    background-color: beige;
+}
+
